@@ -1,0 +1,316 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar {
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    z-index: 119;
+}
+
+.navbar a {
+    line-height: 100px;
+    text-decoration: none;
+    margin-inline: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+
+}
+
+.navbar .indoor {
+    border-bottom: 3px solid gray;
+    margin-bottom: 30px;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+}
+
+.hero .hero1 {
+    width: 490px;
+    height: 387px;
+    background-color: #80A6AD;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero .hero1 #p1 {
+    display: flex;
+    flex-direction: column;
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #405357;
+
+}
+
+.hero .hero1 #p2 {
+    color: white;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    border-bottom: 4px solid #405357;
+    width: 275px;
+    padding-block: 5px;
+    margin-right: 35px;
+}
+
+.main1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+
+}
+
+.main1 .main11 {
+    margin-right: 10px;
+}
+
+.main1 .main12 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.main1 .main13 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.main1 .main13 .h3 {
+    width: 314px;
+    height: 169px;
+    background-color: #80A6AD;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main1 .main12 #m2 {
+    margin-bottom: 10px;
+}
+
+.main1 .main13 #h0 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: white;
+    font-weight: bolder;
+
+}
+
+.main2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.main2 .main21 .hp {
+    width: 314px;
+    height: 169px;
+    background-color: #80A6AD;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main2 .main21 #h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: white;
+    font-weight: bolder;
+
+
+}
+
+.main2 .main22 {
+    display: flex;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.main2 .main23 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.main2 .main23 #m22 {
+    margin-bottom: 10px;
+}
+
+.main2 .main23 .divvv {
+    width: 50px;
+    height: 25px;
+    color: white;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+
+}
+
+.main3 .main31 {
+    margin-right: 10px;
+}
+
+.main3 .main32 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.main3 .main33 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.main3 .main33 .h00 {
+    width: 314px;
+    height: 169px;
+    background-color: #80A6AD;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main3 .main32 #m31 {
+    margin-bottom: 10px;
+}
+
+.main3 .main33 #h9 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: white;
+    font-weight: bolder;
+
+}
+
+.foot {
+    width: 100%;
+    height: 275px;
+    background-color: #607d81;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.foot .footSub {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 65%;
+    height: 70%;
+    /* background-color: red; */
+}
+
+.foot .footSub .f1 {
+    width: 25%;
+    height: 70%;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #d6d6d6;
+    line-height: 25px;
+
+}
+
+.foot .footSub .f1 i {
+    color: #d6d6d6;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-inline: 15px;
+}
+
+.foot .footSub .f2 p {
+    color: #d6d6d6;
+    line-height: 25px;
+    margin-bottom: 10px;
+
+}
+
+.foot .footSub .f2 span {
+    cursor: pointer;
+}
+
+.foot .footSub .f3 {
+    width: 45%;
+    height: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+}
+
+.foot .footSub .f3 .lable {
+    color: #d6d6d6;
+    font-size: 1.2rem;
+}
+
+.foot .footSub .f3 .input {
+    width: 100%;
+    height: 45px;
+    margin: 8px 0px;
+
+}
+
+.foot .footSub .f3 .input input::placeholder {
+    color: #d6d6d6;
+    padding-left: 20px;
+    font-size: 15px;
+}
+
+.foot .footSub .f3 .input input {
+    min-height: 25px;
+    height: 30px;
+    width: inherit;
+    outline: none;
+    background-color: transparent;
+    border: 1px solid #d6d6d6;
+}
+
+.foot .footSub .f3 .submit {
+    width: 100%;
+    height: 50px;
+    color: #d6d6d6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: #405357;
+}
+
+.foot .bstrip {
+    width: 100%;
+    height: 18%;
+    background-color: #5e5e5e;
+    font-size: 12px;
+    color: #d6d6d6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
